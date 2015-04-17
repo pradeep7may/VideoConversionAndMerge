@@ -143,7 +143,24 @@
   [composedTrack insertTimeRange:CMTimeRangeMake(kCMTimeZero, video2.duration)
    ofTrack:[[video2 tracksWithMediaType:AVMediaTypeVideo] objectAtIndex:0]
    atTime:video1.duration error:nil];
-  
+ 
+    /***********************
+  //  For Mixing audio and video
+    
+    NSArray *pathComponents = [NSArray arrayWithObjects:
+                               [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) lastObject],
+                               @"MyAudio.m4a",
+                               nil];
+    NSURL *outputFileURL = [NSURL fileURLWithPathComponents:pathComponents];
+    
+    AVAsset *audioAsset = [AVAsset assetWithURL:outputFileURL];
+    
+    AVMutableCompositionTrack *audioTrack = [composition addMutableTrackWithMediaType:AVMediaTypeAudio preferredTrackID:kCMPersistentTrackID_Invalid];
+    [audioTrack insertTimeRange:CMTimeRangeMake(kCMTimeZero,video1.duration)
+                        ofTrack:[[audioAsset tracksWithMediaType:AVMediaTypeAudio] objectAtIndex:0] atTime:kCMTimeZero error:nil];
+
+    **********************/
+    
   // Create a temp path to save the video in the documents dir.
   
   NSString* documentsDirectory= [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) objectAtIndex:0];

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>9843E661-2E08-401F-A409-AC530C8D94B6</string>
+	<key>IDESourceControlProjectName</key>
+	<string>VideoConvertionAndMerge</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>411321180562F524A2CDDA7401D8799BA310789F</key>
+		<string>https://github.com/pradeep7may/VideoConversionAndMerge.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>VideoConvertionAndMerge/VideoConvertionAndMerge.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>411321180562F524A2CDDA7401D8799BA310789F</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/pradeep7may/VideoConversionAndMerge.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>411321180562F524A2CDDA7401D8799BA310789F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>411321180562F524A2CDDA7401D8799BA310789F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>VideoConversionAndMerge</string>
+		</dict>
+	</array>
+</dict>
+</plist>
